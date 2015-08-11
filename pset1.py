@@ -11,7 +11,7 @@ for month in months:
 	remaining_balance = outstanding_balance - principal_paid
 
 	print "Month: %d" % month
-	print "Minmum mothly payment:", min_monthly_payment
+	print "Minmum monthly payment:", min_monthly_payment
 	print "Principle paid:", principal_paid
 	print "Remaining balance:", remaining_balance
 
