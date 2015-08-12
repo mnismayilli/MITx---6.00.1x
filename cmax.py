@@ -14,7 +14,7 @@ print csum(sum_list)
 
 def cproduct(numbers):
 	"""
-	create a multiplication
+	create a multiplication function
 	"""
 	product = numbers[0]
 	for num in numbers:
