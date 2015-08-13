@@ -16,12 +16,12 @@ def cproduct(numbers):
 	"""
 	create a multiplication function
 	"""
-	product = numbers[0]
+	product = 1
 	for num in numbers:
-		product = product * num
+		product = product * num 
 	return product
 
-product_list = [2, 7, 5, 3, 10]
+product_list = [4, 5, 3, 2]
 print cproduct(product_list)
 
 
