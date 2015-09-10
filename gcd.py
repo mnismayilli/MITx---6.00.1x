@@ -42,9 +42,9 @@ def gcdIter2(a, b):
 	c = min(a,b)
 	while a % c != 0 or b % c != 0:
 		c = c-1
-	print c
+	return c
 
-gcdIter2(252, 105)
+print gcdIter2(252, 105)
 
 
 #3 Euclidean algorithm
