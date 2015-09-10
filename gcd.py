@@ -28,9 +28,9 @@ def gcdIter1(a, b):
 		for j in range(len(divisorsb)):
 			if divisorsa[i] == divisorsb[j]:
 				gcd.append(divisorsa[i])
-	return "the greatest common divisor is:", max(gcd)
+	return max(gcd)
 
-print gcdIter1(36, 27)
+print "the greatest common divisor is:", gcdIter1(36, 27)
 
 
 #2 better solution
