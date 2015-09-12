@@ -19,4 +19,4 @@ def lenRecur(aStr):
 		return 0
 	return 1 + lenRecur(aStr[1:])
 
-print lenRecur('fghjkli678 5o')
+print lenRecur('fghjkli678 ghjk')
