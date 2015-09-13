@@ -15,10 +15,14 @@ def isIn(char, aStr):
 		if char == aStr[mid]:
 			return True
 		elif char > aStr[mid]:
-			return isIn(char, aStr[mid:])
+			return isIn(char, aStr[mid+1 : ])
 		else: 
 			return isIn(char, aStr[:mid])
 
-print isIn("m", "acdglmnqyz")
-print isIn('o', '')
-print isIn('a','c')
+
+print isIn('m', 'acdglmnqyz')  # True          
+print isIn('a', 'acdglmnqyz')  # True
+print isIn('z', 'acdglmnqyz')  # True
+print isIn('b', 'acdglmnqyz')  # False
+print isIn('a','c')  # False
+print isIn('a', '')  # False
