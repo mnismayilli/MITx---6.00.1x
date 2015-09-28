@@ -6,7 +6,7 @@ def sharp(x):
 
 print sharp(2)  # 2
 print sharp(4)  # 4096
-print sharp(10)  # it's gonna a suuuuuuuuper big number!
+print sharp(10)  # it's gonna return a suuuuuuuuper big number!
 
 #2
 def ndigits(x):
