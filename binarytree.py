@@ -16,7 +16,6 @@ h = node("h", t, None)
 O = node("!", a, e)  
 P = node(":)", h, O) 
 root = P
-
 # ! and :) cannot be the name,so i name them O and P
 
 def DFS(node):
