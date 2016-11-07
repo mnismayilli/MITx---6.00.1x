@@ -60,3 +60,10 @@ def gcdRecur(a, b):
     return gcdRecur(c, d-c)
 print gcdRecur(252, 105)
 print gcdRecur(0, 3)
+
+def gcd(a,b):
+	while b:
+		a, b = b, a % b
+	return a
+print gcd(12,18) #6
+
