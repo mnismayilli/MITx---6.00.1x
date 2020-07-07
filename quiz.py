@@ -7,8 +7,8 @@ def count7(N):
 	if N == 0:
 		return 0
 	if N % 10 == 7:
-		return 1 + count7(N/10)
-	return count7(N/10)
+		return 1 + count7(N//10)
+	return count7(N//10)
 
 print count7(7172377)  # 4
 print count7(162538)  # 0
